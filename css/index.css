@@ -1,0 +1,232 @@
+
+/*---------------------------link section---------------------------*/
+#nav_bar{
+    overflow: hidden;
+    background: black;
+    position: fixed;
+    width: 100%;
+}
+ul{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+li{
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 25px;
+    background-color: #000000;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+}
+
+ul:hover{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #0084f7;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+ul:active{
+    text-decoration: none;
+    color: white;
+}
+li:active{
+    text-decoration: none;
+    color: white;
+    background-color: #0084f7;
+}
+a:active{
+    text-decoration: none;
+    color: white;
+}
+
+ul:visited{
+    text-decoration: none;
+    color: white;
+}
+li:visited{
+    text-decoration: none;
+    color: white;
+    background-color: #0084f7;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+ul:focus{
+    text-decoration: none;
+    color: white;
+}
+li:focus{
+    text-decoration: none;
+    color: white;
+    background-color: #0084f7;
+}
+a:focus{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*---------------------------main section---------------------------*/
+
+
+
+body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#home{
+    background-image: url("image/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 15%;
+    padding-bottom: 50%;
+    text-align: center;
+    font-size: 150% ;
+    
+}
+#about{}
+#skills{}
+#project{}
+#achievements{}
+
+div{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+
+
+
+/*---------------------------about section---------------------------*/
+
+
+
+tr{
+    height: 50%;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+td{
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#section1{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+#paragraph1{
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    font-size: x-large;
+}
+#image1{
+    height: 50px;
+    width: 50%;
+}
+
+#section2{}
+#paragraph2{
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    font-size: x-large;
+}
+#image2{
+    height: 50%;
+    width: 50%;
+}
+
+#section3{}
+#paragraph3{
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    font-size: x-large;
+}
+#image3{
+    height: 50%;
+    width: 50%;
+}
+
+/*---------------------------faq section---------------------------*/
+
+#faq{
+    background-image: url("image/faq_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+#faq_text{
+    background-color: white;
+}
+form{
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 480px;
+    width: 100%;
+    padding: 5%;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: 7%;
+}
+#textinput{
+    width: 60%;
+    background-color: transparent;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid black;
+    margin: 0px 0px 10px;
+    padding: 15px 10px;
+}
+input{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid black;
+    margin: 0px 0px 10px;
+    padding: 15px 10px;
+}
+#submit{
+    width: 30%;
+    margin: 0px 0px 0px 0px;
+    padding: 12px 30px;
+    text-align: right;
+    color: white;
+    background-color: #999999;
+}
+
