@@ -106,10 +106,6 @@ body{
     
 }
 
-
-#project{}
-#achievements{}
-
 div{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -192,7 +188,9 @@ img{
     text-align: center;
 }
 #skills_container{
-    
+    background-color: #808080;
+    padding-top: 2%;
+    padding-bottom: 2%
 }
 .container {
   width: 50%;
@@ -213,10 +211,10 @@ img{
 .js {width: 50%; background-color: #f44336;}
 .android {width: 75%; background-color: #3dd382;}
 .fewd {width: 50%; background-color: #00ffff;}
-.bewd {width: 70%; background-color: #808080;}
+.bewd {width: 10%; background-color: #108080;}
 .illustrator {width: 50%; background-color: #330000;}
 
-/*---------------------------faq section---------------------------*/
+/*---------------------------projects section---------------------------*/
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -255,6 +253,11 @@ li.pi{
     background-color: gray;
     display: block;
     text-decoration: none;
+}
+
+/*---------------------------achievements section---------------------------*/
+#achievements{
+    height: 400px;
 }
 
 /*---------------------------faq section---------------------------*/
