@@ -5,6 +5,7 @@
     background: black;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 ul.nav{
     text-decoration: none;
@@ -358,4 +359,64 @@ h2{
     text-decoration: none;
 }
 
+/*---------------------------other media type section---------------------------*/
+
+/**/
+.fadeinfrombottom{
+	animation: fadeinfrombottomanimation ease 1.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.fadeinfromtop{
+	animation: fadeinfromtopanimation ease 1.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.fadeinfromleft{
+	animation: fadeinfromleftanimation ease 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.fadeinfromright{
+	animation: fadeinfromrightanimation ease 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeinfrombottomanimation {
+	0% {
+		opacity: 0;
+        transform: translateY(100%);
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeinfromleftanimation {
+	0% {
+		opacity: 0;
+        transform: translateX(-100%);
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeinfromrightanimation {
+	0% {
+		opacity: 0;
+        transform: translateX(100%);
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeinfromtopanimation {
+	0% {
+		opacity: 0;
+        transform: translateY(-100%);
+	}
+	100% {
+		opacity: 1;
+	}
+}
 /*---------------------------the end---------------------------*/

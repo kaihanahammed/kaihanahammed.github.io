@@ -11,7 +11,7 @@
     <body>
         
         <div id="nav_bar">
-            <ul class="nav" type="none">
+            <ul class="nav fadeinfromleft" type="none">
                 <li class="nav"><a href="#home">HOME</a></li>
                 <li class="nav"><a href="#about">ABOUT</a></li>
                 <li class="nav"><a href="#skills">SKILLS</a></li>
@@ -34,12 +34,12 @@
                     <br>
                     My name is Kaihan Ahammed.I'm a student and a computer nerd.
                 </td>
-                <td id="image1">
+                <td id="image1" class="fadeinfrombottom">
                     <img src="css/image/image1.jpg" alt="image1"/>
                 </td>
             </tr>
             <tr id="section2">
-                <td id="image2">
+                <td id="image2" class="fadeinfrombottom">
                     <img src="css/image/image2.jpg" alt="image2"/>
                 </td>
                 <td id="paragraph2">
@@ -60,7 +60,7 @@
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </td>
-                <td id="image3">
+                <td id="image3" class="fadeinfrombottom">
                     <img src="css/image/image3.jpg" alt="image3"/>
                 </td>
             </tr>
@@ -111,7 +111,7 @@
             <div id="project">
                 <ul class="p" type="none">
                     <li class="pi">
-                        <div class="card">
+                        <div class="card fadeinfrombottom">
                             <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="width:100%">
                             <div class="card_container">
                                 <h4><b>Jane Doe 1</b></h4> 
@@ -125,7 +125,7 @@
                         </div>
                     </li>
                     <li class="pi">
-                        <div class="card">
+                        <div class="card fadeinfrombottom">
                             <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="width:100%">
                             <div class="card_container">
                                 <h4><b>Jane Doe 2</b></h4> 
@@ -139,7 +139,7 @@
                         </div>
                     </li>
                     <li class="pi">
-                        <div class="card">
+                        <div class="card fadeinfrombottom">
                             <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="width:100%">
                             <div class="card_container">
                                 <h4><b>Jane Doe 3</b></h4> 
@@ -217,6 +217,11 @@
                 <input type="text" name="name" placeholder="Name" class="textinput" required><br>
                 <input type="text" name="email" placeholder="Email" class="textinput" required><br>
                 <input type="text" name="comment" placeholder="Message" class="textinput"><br>
+                <div class="form-control">
+                    <input type="text" required>
+                    <label>Email</label>
+                  </div>
+                  <br>
                 <button type="submit" id="submit">Submit</button>
             </form>
             <br>
@@ -224,12 +229,11 @@
         
         <div id="footer">
             <ul class="footer_ul" type="none">
-                    <li class="footer_li"><br></li>
                     <li class="footer_li">
                         <br>
                         <br>
-                        <a href="https://www.facebook.com/kaihanahammed"><img class="footer_img" src="css/image/facebook_logo.png" alt="Facebook"/></a>
-                        <a href="mailto:kaihanahammed07@gmail.com"><img class="footer_img" src="css/image/gmail_logo.png" alt="Email"/></a>
+                        <a href="https://www.facebook.com/kaihanahammed"><img class="footer_img fadeinfromleft" src="css/image/facebook_logo.png" alt="Facebook"/></a>
+                        <a href="mailto:kaihanahammed77@gmail.com"><img class="footer_img fadeinfrombottom" src="css/image/gmail_logo.png" alt="Email"/></a>
                         <a href="https://github.com/kaihanahammed"><img class="footer_img" src="css/image/github_logo.png" alt="Github"/></a>
                         <br>
                         <br>
@@ -241,7 +245,6 @@
                         </p>
                         <br>
                     </li>
-                    <li class="footer_li"><br></li>
             </ul>
         </div>
     </body>
