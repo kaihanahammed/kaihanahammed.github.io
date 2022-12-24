@@ -104,7 +104,6 @@ body{
     padding-bottom: 50%;
     text-align: center;
     font-size: 150% ;
-    
 }
 
 div{
@@ -258,7 +257,14 @@ li.pi{
 
 /*---------------------------achievements section---------------------------*/
 #achievements{
+    color: white;
     height: auto;
+    background-image: url("image/faq_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
 }
 .a_table{
     margin: auto;
@@ -363,22 +369,22 @@ h2{
 
 /**/
 .fadeinfrombottom{
-	animation: fadeinfrombottomanimation ease 1.5s;
+	animation: fadeinfrombottomanimation ease-out 1.5s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
 .fadeinfromtop{
-	animation: fadeinfromtopanimation ease 1.5s;
+	animation: fadeinfromtopanimation ease-out 1.5s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
 .fadeinfromleft{
-	animation: fadeinfromleftanimation ease 1s;
+	animation: fadeinfromleftanimation ease-out 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
 .fadeinfromright{
-	animation: fadeinfromrightanimation ease 1s;
+	animation: fadeinfromrightanimation ease-out 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
@@ -388,6 +394,9 @@ h2{
 		opacity: 0;
         transform: translateY(100%);
 	}
+    50% {
+        opacity: .5;
+    }
 	100% {
 		opacity: 1;
 	}
