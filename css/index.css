@@ -258,11 +258,8 @@ li.pi{
 
 /*---------------------------achievements section---------------------------*/
 #achievements{
-    color: white;
+    color: black;
     height: auto;
-    background-image: url("image/faq_background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 100%;
     height: 100%;
     width: 100%;
