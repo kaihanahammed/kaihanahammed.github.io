@@ -1,4 +1,8 @@
-
+body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: black;
+}
 /*---------------------------link section---------------------------*/
 #nav_bar{
     overflow: hidden;
@@ -14,81 +18,39 @@
 }
 ul.nav{
     text-decoration: none;
-    color: white;
+    color: black;
     width: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
 li.nav{
     text-decoration: none;
-    color: white;
-    margin: 0px 0px 0px 0px;
-    padding: 15px 25px;
+    margin: 0px solid transparent;
     background-color: #000000;
     display: inline-block;
 }
-a{
+a.nava{
     text-decoration: none;
     color: white;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 15px 25px;
     font-size: 20px;
+    display: inline-block;
+
 }
 
-ul.nav:hover{
+ul:hover{
     text-decoration: none;
-    color: white;
+    color: black;
 }
-li.nav:hover{
+li:hover{
     text-decoration: none;
-    color: white;
-    background-color: #0084f7;
+    color: black;
+    background-color: #ffffff;
 }
-a.nav:hover{
+a:hover{
     text-decoration: none;
-    color: white;
-}
-
-ul.nav:active{
-    text-decoration: none;
-    color: white;
-}
-li.nav:active{
-    text-decoration: none;
-    color: white;
-    background-color: #0084f7;
-}
-a.nav:active{
-    text-decoration: none;
-    color: white;
-}
-
-ul.nav:visited{
-    text-decoration: none;
-    color: white;
-}
-li.nav:visited{
-    text-decoration: none;
-    color: white;
-    background-color: #0084f7;
-}
-a.nav:visited{
-    text-decoration: none;
-    color: white;
-}
-
-ul.nav:focus{
-    text-decoration: none;
-    color: white;
-}
-li.nav:focus{
-    text-decoration: none;
-    color: white;
-    background-color: #0084f7;
-}
-a.nav:focus{
-    text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .blogs{
@@ -96,7 +58,8 @@ a.nav:focus{
     border: 1px solid white;
     align-items: end;
     align-self: end;
-    padding-right: 0%;
+    padding-right: 0px;
+    float: right;
 }
 
 
@@ -105,10 +68,7 @@ a.nav:focus{
 
 
 
-body{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-}
+
 #home{
     background-image: url("image/background_image.jpg");
     background-repeat: no-repeat;
