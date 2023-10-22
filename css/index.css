@@ -73,10 +73,28 @@ a:hover{
     background-image: url("image/background_image.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 50%;
     text-align: center;
     font-size: 150% ;
+    float: center;
+}
+
+#home_image_self_div{
+    z-index: 1;
+    float: right;
+    padding-bottom: 0%;
+    width: 50%;
+}
+
+#home_image_self_img{
+    width: 60%;
+    height: min-content;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
 }
 
 div{
@@ -84,12 +102,10 @@ div{
     padding: 0px 0px 0px 0px;
 }
 #intro_div{
+    z-index: 2;
+    float: left;
     text-align: left;
-}
-footer{
-    height: 100%;
-    width: 100%;
-    background-color: black;
+    width: 50%;
 }
 h1.intro{
     text-align: left;
@@ -398,6 +414,12 @@ input{
 
 /*---------------------------footer section---------------------------*/
 
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
 .footer_img{
     height: 70px;
     width: 70px;
@@ -454,6 +476,7 @@ h2{
 	animation: fadeinfromrightanimation ease-out 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
+	-webkit-animation: fadeinfromrightanimation ease-out 1s;
 }
 
 @keyframes fadeinfrombottomanimation {
