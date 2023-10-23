@@ -1,10 +1,13 @@
-body{
+body {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     color: black;
+    user-select: none;
+
 }
+
 /*---------------------------link section---------------------------*/
-#nav_bar{
+#nav_bar {
     overflow: hidden;
     background: black;
     position: fixed;
@@ -16,20 +19,23 @@ body{
     -ms-transition: top 0.5s ease-in-out;
     -o-transition: top 0.5s ease-in-out;
 }
-ul.nav{
+
+ul.nav {
     text-decoration: none;
     color: black;
     width: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
-li.nav{
+
+li.nav {
     text-decoration: none;
     margin: 0px solid transparent;
     background-color: #000000;
     display: inline-block;
 }
-a.nava{
+
+a.nava {
     text-decoration: none;
     color: white;
     margin: 0px 0px 0px 0px;
@@ -39,21 +45,12 @@ a.nava{
 
 }
 
-ul:hover{
-    text-decoration: none;
-    color: black;
-}
-li:hover{
-    text-decoration: none;
-    color: black;
-    background-color: #ffffff;
-}
-a:hover{
+a:hover {
     text-decoration: none;
     color: black;
 }
 
-.blogs{
+.blogs {
     text-align: left;
     border: 1px solid white;
     align-items: end;
@@ -62,32 +59,45 @@ a:hover{
     float: right;
 }
 
+.nava:hover {
+    background-color: #ffffff;
+}
 
+/*---------------------------partocles section---------------------------*/
+#particles {
+    background-image: url("image/background_image.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+    float: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
 
 /*---------------------------main section---------------------------*/
 
 
 
 
-#home{
-    background-image: url("image/background_image.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+#home {
     padding-top: 10%;
     padding-bottom: 50%;
     text-align: center;
-    font-size: 150% ;
+    font-size: 150%;
     float: center;
 }
 
-#home_image_self_div{
+#home_image_self_div {
     z-index: 1;
     float: right;
     padding-bottom: 0%;
     width: 50%;
 }
 
-#home_image_self_img{
+#home_image_self_img {
     width: 60%;
     height: min-content;
     border-radius: 15%;
@@ -97,17 +107,19 @@ a:hover{
     -o-border-radius: 15%;
 }
 
-div{
+div {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
-#intro_div{
+
+#intro_div {
     z-index: 2;
     float: left;
     text-align: left;
     width: 50%;
 }
-h1.intro{
+
+h1.intro {
     text-align: left;
     padding-left: 10%;
     padding-bottom: 0%;
@@ -115,14 +127,16 @@ h1.intro{
     padding-top: 0%;
     margin-top: 0%;
 }
-h1{
+
+h1 {
     text-align: center;
     padding-bottom: 0%;
     margin-bottom: 0%;
     padding-top: 0%;
     margin-top: 0%;
 }
-h3.intro{
+
+h3.intro {
     text-align: left;
     padding-left: 10%;
 }
@@ -132,154 +146,236 @@ h3.intro{
 
 
 
-#about{
+#about {
     width: 100%;
 }
-tr{
+
+tr {
     height: 50%;
     width: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     display: inline-block;
 }
-td{
+
+td {
     width: 50%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
-img{
+
+img {
     width: 100%;
 }
-#section1{
+
+#section1 {
     height: 50%;
     width: 100%;
     overflow: hidden;
 }
-#paragraph1{
+
+#paragraph1 {
     height: 50px;
     width: 50%;
     text-align: center;
     font-size: x-large;
 }
-#image1{
+
+#image1 {
     height: 50px;
     width: 50%;
 }
 
-#section2{
+#section2 {
     height: 50%;
     width: 100%;
     overflow: hidden;
 }
-#paragraph2{
+
+#paragraph2 {
     height: 50%;
     width: 50%;
     text-align: center;
     font-size: x-large;
 }
-#image2{
+
+#image2 {
     height: 50%;
     width: 50%;
 }
 
-#section3{
+#section3 {
     height: 50%;
     width: 100%;
     overflow: hidden;
 }
-#paragraph3{
+
+#paragraph3 {
     height: 50%;
     width: 50%;
     text-align: center;
     font-size: x-large;
 }
-#image3{
+
+#image3 {
     height: 50%;
     width: 50%;
 }
 
 /*---------------------------skills section---------------------------*/
-#skills{
-    margin:auto;
-    box-sizing:border-box;
-    text-align: center;
-    background-image: url("image/skills_background.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-}
-#skills_container{
-    width: 50%;
-    padding-left: 50%;
-    background-color: transparent;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    height: 100%;
-}
-.container {
-  width: 50%;
-  margin-left: 25%;
-  background-color: #cccccc;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
 
 .skills {
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
 }
 
-.java {width: 95%; background-color: #f8981d;border-radius: 5px;}
-.html {width: 95%; background-color: #dd4b25;border-radius: 5px;}
-.css {width: 75%; background-color: #264de4;border-radius: 5px;}
-.js {width: 50%; background-color: #f44336;border-radius: 5px;}
-.android {width: 75%; background-color: #3dd382;border-radius: 5px;}
-.fewd {width: 50%; background-color: #00ffff;border-radius: 5px;}
-.bewd {width: 75%; background-color: #108080;border-radius: 5px;}
-.illustrator {width: 50%; background-color: #330000;border-radius: 5px;}
+#my_skills {
+    text-align: center;
+    background-color: #ffffff;
+    height: min-content;
+    width: 100%;
+}
+
+#skills_left_right_container {
+    display: flex;
+    height: min-content;
+}
+
+#skills_container {
+    width: 50%;
+    padding-left: 0%;
+    background-color: white;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    height: min-content;
+
+}
+
+#skills_blank {
+    width: 50%;
+    padding: auto;
+    float: left;
+    color: transparent;
+    margin: 0%;
+    text-align: center;
+    background-color: #FBDCB0;
+    background-image: url("image/skills_background_2.png");
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #cccccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#skills {
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.java {
+    width: 95%;
+    background-color: #f8981d;
+    border-radius: 5px;
+}
+
+.html {
+    width: 95%;
+    background-color: #dd4b25;
+    border-radius: 5px;
+}
+
+.css {
+    width: 75%;
+    background-color: #264de4;
+    border-radius: 5px;
+}
+
+.js {
+    width: 50%;
+    background-color: #f44336;
+    border-radius: 5px;
+}
+
+.android {
+    width: 75%;
+    background-color: #3dd382;
+    border-radius: 5px;
+}
+
+.fewd {
+    width: 50%;
+    background-color: #00ffff;
+    border-radius: 5px;
+}
+
+.bewd {
+    width: 75%;
+    background-color: #108080;
+    border-radius: 5px;
+}
+
+.illustrator {
+    width: 50%;
+    background-color: #330000;
+    border-radius: 5px;
+}
 
 /*---------------------------projects section---------------------------*/
-#projects{
-    background-color: rgba(136, 154, 158, 0.2);
+#projects {
+    background-color: #ffffff;
+    float: center;
+    height: min-content;
 }
+
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-  transition: 0.3s;
-  width: 100%;
-  border-radius: 5px;
-  display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 img {
-  border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 
 .card_container {
-  padding: 2px 16px;
+    padding: 2px 16px;
 }
 
-ul.p{
+ul.p {
     text-decoration: none;
     margin: 0px;
     padding: 1%;
 }
-li.pi{
+
+li.pi {
     text-decoration: none;
     display: inline-block;
     margin: 0px;
     padding: 0% 1.5% 0% 1.5%;
     width: 30%;
 }
-#more{
+
+#more {
     padding: 5px 0 5px 0;
     background-color: gray;
     display: block;
@@ -288,7 +384,7 @@ li.pi{
 }
 
 /*---------------------------achievements section---------------------------*/
-#achievements{
+#achievements {
     color: black;
     height: auto;
     background-size: 100%;
@@ -297,24 +393,28 @@ li.pi{
     background-color: rgba(136, 154, 158, 0.2);
     background-size: 100% 100%;
 }
-#achievements_sub_div{
+
+#achievements_sub_div {
     background-color: rgba(136, 154, 158, 0.2);
 }
-.a_table{
+
+.a_table {
     margin: auto;
     width: 70%;
 }
-.a_tr{
+
+.a_tr {
     border-bottom: 1px solid black;
     width: 100%;
     height: 40%;
 }
-.a_td{
+
+.a_td {
     width: 100%;
 }
 
 /*---------------------------interests section---------------------------*/
-#interests{
+#interests {
     height: 100%;
     background-color: rgba(136, 154, 158, 0.2);
     background-image: url("image/interest_background.jpg");
@@ -322,19 +422,23 @@ li.pi{
     background-size: 100% 100%;
     background-attachment: fixed;
 }
-#achievements_sub_div{
+
+#achievements_sub_div {
     background-color: rgba(255, 255, 255, 0.75);
 }
-div.interest_list_div_sum{
+
+div.interest_list_div_sum {
     padding: 10%;
 }
-div.interest_list{
+
+div.interest_list {
     text-decoration: none;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
 }
-div.interest_list_li{
+
+div.interest_list_li {
     margin: 1%;
     padding: 15px 25px;
     text-align: center;
@@ -354,14 +458,15 @@ div.interest_list_li{
     justify-content: center;
     line-height: 18px;
 }
-p.interest_list_li_p{
+
+p.interest_list_li_p {
     padding: 0% 0% 0% 0%;
     margin: 0% 0% 0% 0%;
 }
 
 /*---------------------------faq section---------------------------*/
 
-#faq{
+#faq {
     background-image: url("image/faq_background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -369,13 +474,16 @@ p.interest_list_li_p{
     height: 100%;
     width: 100%;
 }
-#faq_sub_div{
+
+#faq_sub_div {
     background-color: rgba(255, 255, 255, 0.6);
 }
-#faq_text{
+
+#faq_text {
     background-color: white;
 }
-form{
+
+form {
     background-color: rgba(255, 255, 255, 0.8);
     max-width: 480px;
     width: 100%;
@@ -385,7 +493,8 @@ form{
     margin-bottom: 100px;
     margin-left: 7%;
 }
-.textinput{
+
+.textinput {
     width: 60%;
     background-color: transparent;
     border-top: 0px;
@@ -395,7 +504,8 @@ form{
     margin: 0px 0px 10px;
     padding: 15px 10px;
 }
-input{
+
+input {
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
@@ -403,24 +513,25 @@ input{
     margin: 0px 0px 10px;
     padding: 15px 10px;
 }
-#submit{
+
+#submit {
     width: 30%;
     margin: 0px 0px 0px 0px;
     padding: 12px 30px;
-    text-align: right;
+    text-align: center;
     color: white;
     background-color: #999999;
 }
 
 /*---------------------------footer section---------------------------*/
 
-footer{
+footer {
     height: 100%;
     width: 100%;
     background-color: black;
 }
 
-.footer_img{
+.footer_img {
     height: 70px;
     width: 70px;
     margin: auto;
@@ -428,25 +539,30 @@ footer{
     border-radius: 50%;
     border: 3px solid white;
 }
-#footer{
+
+#footer {
     padding: 0px;
     background-color: #000000;
     color: white;
     text-align: center;
 }
-p.copy{
+
+p.copy {
     margin: 0px 0px;
 }
-h2{
+
+h2 {
     margin: 0px 0px;
 }
-.footer_ul{
+
+.footer_ul {
     width: 100%;
     margin: 0px 0px;
     padding: 0px 0px 0px 0px;
     text-decoration: none;
 }
-.footer_li{
+
+.footer_li {
     width: 33%;
     padding: auto;
     margin: auto;
@@ -457,65 +573,77 @@ h2{
 /*---------------------------other media type section---------------------------*/
 
 /**/
-.fadeinfrombottom{
-	animation: fadeinfrombottomanimation ease-out 1.5s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+.fadeinfrombottom {
+    animation: fadeinfrombottomanimation ease-out 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-.fadeinfromtop{
-	animation: fadeinfromtopanimation ease-out 1.5s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+
+.fadeinfromtop {
+    animation: fadeinfromtopanimation ease-out 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-.fadeinfromleft{
-	animation: fadeinfromleftanimation ease-out 1s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
+
+.fadeinfromleft {
+    animation: fadeinfromleftanimation ease-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-.fadeinfromright{
-	animation: fadeinfromrightanimation ease-out 1s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-	-webkit-animation: fadeinfromrightanimation ease-out 1s;
+
+.fadeinfromright {
+    animation: fadeinfromrightanimation ease-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation: fadeinfromrightanimation ease-out 1s;
 }
 
 @keyframes fadeinfrombottomanimation {
-	0% {
-		opacity: 0;
+    0% {
+        opacity: 0;
         transform: translateY(100%);
-	}
+    }
+
     50% {
         opacity: .5;
     }
-	100% {
-		opacity: 1;
-	}
+
+    100% {
+        opacity: 1;
+    }
 }
+
 @keyframes fadeinfromleftanimation {
-	0% {
-		opacity: 0;
+    0% {
+        opacity: 0;
         transform: translateX(-100%);
-	}
-	100% {
-		opacity: 1;
-	}
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
+
 @keyframes fadeinfromrightanimation {
-	0% {
-		opacity: 0;
+    0% {
+        opacity: 0;
         transform: translateX(100%);
-	}
-	100% {
-		opacity: 1;
-	}
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
+
 @keyframes fadeinfromtopanimation {
-	0% {
-		opacity: 0;
+    0% {
+        opacity: 0;
         transform: translateY(-100%);
-	}
-	100% {
-		opacity: 1;
-	}
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
+
 /*---------------------------the end---------------------------*/

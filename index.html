@@ -12,6 +12,9 @@
     <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore-compat.js"></script>
 
+    <script src="js/particles.js"></script>
+
+
 </head>
 
 <body>
@@ -23,15 +26,16 @@
             <li class="nav"><a href="#skills" class="nava">SKILLS</a></li>
             <li class="nav"><a href="#projects" class="nava">PROJECTS</a></li>
             <li class="nav"><a href="#achievements" class="nava">ACHIEVEMENTS</a></li>
-            <li class="nav"><a href="#interests" class="nava">INTERESTS</a></li>
+            <!--<li class="nav"><a href="#interests" class="nava">INTERESTS</a></li>-->
             <li class="nav"><a href="#faq" class="nava">CONTACT ME</a></li>
             <li class="nav blogs"><a href="/blogs/" class="nava">BLOGS</a></li>
         </ul>
     </div>
 
+    <div id="particles"></div>
     <div id="home">
         <div id="intro_div">
-            <h1 class="intro"><i>Hii,</i></h1>
+            <h1 class="intro"><i>Hi,</i></h1>
             <h1 class="intro"><i>I'm Kaihan Ahammed.</i></h1>
             <h3 class="intro"><i>Website and Software Developer.</i></h3>
         </div>
@@ -82,45 +86,54 @@
     </div>
 
     <div id="skills">
-        <div>
+        <div id="my_skills">
             <h1>MY SKILLS</h1>
         </div>
-        <div id="skills_container">
-            <p>JAVA</p>
-            <div class="container">
-                <div class="skills java">95%</div>
+        <div id="skills_left_right_container">
+            <div id="skills_blank">
+                asd
             </div>
-            <p>HTML</p>
-            <div class="container">
-                <div class="skills html">95%</div>
-            </div>
-            <p>CSS</p>
-            <div class="container">
-                <div class="skills css">75%</div>
-            </div>
-            <p>JAVASCRIPT</p>
-            <div class="container">
-                <div class="skills js">50%</div>
-            </div>
-            <div><br></div>
-            <p>ANDROID APP DEVELOPMENT</p>
-            <div class="container">
-                <div class="skills android">75%</div>
-            </div>
-            <p>FRONT-END WEBSITE DESIGN</p>
-            <div class="container">
-                <div class="skills fewd">50%</div>
-            </div>
-            <p>BACK-END WEBSITE DEVELOPMENT</p>
-            <div class="container">
-                <div class="skills bewd">75%</div>
-            </div>
-            <p>ADOBE ILLUSTRATOR</p>
-            <div class="container">
-                <div class="skills illustrator">50%</div>
+
+            <div id="skills_container">
+                <p>JAVA</p>
+                <div class="container">
+                    <div class="skills java">95%</div>
+                </div>
+                <p>HTML</p>
+                <div class="container">
+                    <div class="skills html">95%</div>
+                </div>
+                <p>CSS</p>
+                <div class="container">
+                    <div class="skills css">75%</div>
+                </div>
+                <p>JAVASCRIPT</p>
+                <div class="container">
+                    <div class="skills js">50%</div>
+                </div>
+                <div><br></div>
+                <p>ANDROID APP DEVELOPMENT</p>
+                <div class="container">
+                    <div class="skills android">75%</div>
+                </div>
+                <p>FRONT-END WEBSITE DESIGN</p>
+                <div class="container">
+                    <div class="skills fewd">50%</div>
+                </div>
+                <p>BACK-END WEBSITE DEVELOPMENT</p>
+                <div class="container">
+                    <div class="skills bewd">75%</div>
+                </div>
+                <p>ADOBE ILLUSTRATOR</p>
+                <div class="container">
+                    <div class="skills illustrator">50%</div>
+                </div>
+                <br>
+                <br>
             </div>
         </div>
     </div>
+
 
     <div id="projects">
         <div>
@@ -239,6 +252,7 @@
         </div>
     </div>
 
+    <!--
     <div id="interests">
         <div id="interests_sub_div">
             <div>
@@ -277,12 +291,13 @@
             </div>
         </div>
     </div>
+-->
 
     <div id="faq">
         <div id="faq_sub_div">
             <!--<div id="faq_text"><h1>FAQ</h1></div>-->
             <br>
-            <form name="faq_form" action="" method="post" autocomplete="on">
+            <form name="faq_form" action="/index.html/#faq" method="post" autocomplete="on">
                 <input type="text" id="form_name_id" name="name" placeholder="Name" class="textinput" required><br>
                 <input type="email" id="form_email_id" name="email" placeholder="Email" class="textinput" required><br>
                 <input type="text" id="form_comment_id" name="comment" placeholder="Message" class="textinput"
